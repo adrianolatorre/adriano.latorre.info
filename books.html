@@ -1,0 +1,34 @@
+---
+permalink: /books/
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Rebooting…">
+  <title>Rebooting…</title>
+  <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<body>
+  <ul>
+{% for person in site.data.people %}
+  <li>
+    <a href="https://github.com/{{ person.icon }}">
+      {{ person.link }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+  <ul>
+{% for book in site.data.books %}
+  <li>
+    <a href="https://github.com/{{ book.a }}">
+      {{ book.b }}
+    </a>
+  </li>
+{% endfor %}
+</ul>
+</body>
+</html>

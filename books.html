@@ -15,7 +15,7 @@ permalink: /books/
   <ul>
 {% for person in site.data.people %}
   <li>
-    <a href="https://github.com/{{ person.icon }}">
+    <a href="/{{ person.icon }}">
       {{ person.link }}
     </a>
   </li>
@@ -24,7 +24,7 @@ permalink: /books/
   <ul>
 {% for book in site.data.books %}
   <li>
-    <a href="https://github.com/{{ book.a }}">
+    <a href="/{{ book.a }}">
       {{ book.b }}
     </a>
   </li>

@@ -15,7 +15,7 @@ permalink: /books/
   <ul>
 {% for person in site.data.people %}
   <li>
-    <a href="/{{ person.icon }}">Icon</a> {{ person.link }}
+    <a href="/{{ person.icon }}">Icon</a> {{ person.link | markdownify }}
   </li>
 {% endfor %}
 </ul>

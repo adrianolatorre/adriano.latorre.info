@@ -20,13 +20,15 @@ permalink: /books/
 {% endfor %}
 </ul>
   <ul>
-{% for book in site.data.books %}
+{% for year in site.data.books %}
+    {% for book in year %}
   <li>
     <a href="/{{ book.a }}">
       {{ book.b }}
     </a>
   </li>
 {% endfor %}
+    {% endfor %}
 </ul>
 </body>
 </html>

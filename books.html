@@ -19,16 +19,19 @@ permalink: /books/
   </li>
 {% endfor %}
 </ul>
-  <ul>
-{% for year in site.data.books %}
-    {% for book in year %}
-  <li>
-    <a href="/{{ book.a }}">
-      {{ book.b }}
-    </a>
-  </li>
-{% endfor %}
+
+{% assign sorted_books = site.data.books | sort: "date" | reverse %}
+<ul>
+{% for book in sorted_books %}
+  {% assign current_year = book.date %}
+  <h2>{{ current_year }}</h2>
+      <li>
+        <strong>{{ book.title }}</strong> by {{ book.author }}
+        <img src="{{ book.cover }}" alt="{{ book.cover }}">
+        <p>{{ book.info }}</p>
+        <a href="{{ book.url }}">{{ book.url }}</a>
+      </li>
     {% endfor %}
-</ul>
-</body>
+  </ul>
+  </body>
 </html>

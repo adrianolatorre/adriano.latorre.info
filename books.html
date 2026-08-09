@@ -23,8 +23,8 @@ permalink: /books/
 {% assign sorted_books = site.data.books | sort: "date" | reverse %}
 <ul>
 {% for book in sorted_books %}
-  {% if current_year != book.date | slice: 0, 3 %}
-  {% assign current_year = book.date | slice: 0, 3 %}
+  {% if current_year != book.date | slice: 0, 4 %}
+  {% assign current_year = book.date | slice: 0, 4 %}
   <h2>{{ current_year }}</h2>
 {% endif %}
       <li>

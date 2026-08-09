@@ -1,26 +1,27 @@
-2020:
-  - a: Primo 20 Rovelli
-    b: The Primo Order of Time
-    c: rovelli.order.png
-    d: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
-    e: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
+- title: The Primo Order of Time
+  author: Carlo Rovelli
+  cover: rovelli.order.png
+  desc: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
+  url: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
+  date: 20200701
 
-2021:
-  - a: Secondo 21 Rovelli
-    b: The Secondo Order of Time
-    c: rovelli.order.png
-    d: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
-    e: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
-    
-  - a: Tertia 21 Rovelli
-    b: The Tertio Order of Time
-    c: rovelli.order.png
-    d: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
-    e: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
+- title: The Secondo Order of Time
+  author: Carlo Rovelli
+  cover: rovelli.order.png
+  desc: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
+  url: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
+  date: 20210101
 
-2023:
-  - a: Primo 23 Rovelli
-    b: The Primo Order of Time
-    c: rovelli.order.png
-    d: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
-    e: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
+- title: The Tertio Order of Time
+  author: Carlo Rovelli
+  cover: rovelli.order.png
+  desc: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
+  url: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
+  date: 20210601
+
+- title: The Quarto Order of Time
+  author: Carlo Rovelli
+  cover: rovelli.order.png
+  desc: The Order of Time covers the theory of relativity, space-time, loop quantum gravity, and thermodynamics.
+  url: "https://en.wikipedia.org/wiki/The_Order_of_Time_(book)"
+  date: 20230401

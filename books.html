@@ -24,9 +24,9 @@ permalink: /books/
 <ul>
 {% for book in sorted_books %}
   {% if current_year != book.date | slice: 0, 3 %}
-  {% assign current_year = book.date %}
+  {% assign current_year = book.date | slice: 0, 3 %}
+  <h2>{{ current_year }}</h2>
 {% endif %}
-  <h2>{{ current_year | slice: 0, 3 }}</h2>
       <li>
         <strong>{{ book.title }}</strong> by {{ book.author }}
         <img src="{{ book.cover }}" alt="{{ book.cover }}">
